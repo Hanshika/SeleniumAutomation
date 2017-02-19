@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.amazon.helper.LoggerListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.amazon.test.siginPageTest">
+        <methods>
+          <include name="BeforeSuite"/>
+          <include name="before"/>
+          <include name="aftersutie"/>
+        </methods>
+      </class> <!-- com.amazon.test.siginPageTest -->
+      <class name="com.amazon.test.HomePageTest">
+        <methods>
+          <include name="GiftCardClick"/>
+          <include name="before"/>
+          <include name="SiginClick"/>
+          <include name="testnavlinks"/>
+          <include name="testserachbox"/>
+        </methods>
+      </class> <!-- com.amazon.test.HomePageTest -->
+      <class name="com.amazon.test.GiftCardPageTest">
+        <methods>
+          <include name="before"/>
+          <include name="testLogint"/>
+        </methods>
+      </class> <!-- com.amazon.test.GiftCardPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
