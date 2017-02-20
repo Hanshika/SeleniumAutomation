@@ -5,10 +5,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class GiftCardPage {
+public class GiftCardPage 
+{
 	WebDriver driver;
 
-	public GiftCardPage(WebDriver driver) {
+	public GiftCardPage(WebDriver driver) 
+	{
 		this.driver = driver;
 
 	}
