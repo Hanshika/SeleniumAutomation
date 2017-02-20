@@ -10,7 +10,8 @@ public class BaseTest {
 	public WebDriver driver;
 
 	@BeforeSuite
-	public void BeforeSuite() {
+	public void BeforeSuite() 
+	{
 		/*
 		 * System.setProperty("webdriver.gecko.driver",
 		 * "H://Users//Hanshika//gomathy_java//SeleniumAutomationLearns//resources//drivers//geckodriver.exe"
@@ -30,7 +31,8 @@ public class BaseTest {
 	}
 
 	@AfterSuite
-	public void aftersutie() {
+	public void aftersutie() 
+	{
 		driver.quit();
 	}
 

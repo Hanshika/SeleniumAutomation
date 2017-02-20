@@ -8,7 +8,8 @@ import java.util.Properties;
 public class ConfigUtils {
 
 	public static Properties loadProperties(String fileName)
-			throws FileNotFoundException, IOException {
+			throws FileNotFoundException, IOException 
+			{
 		Properties prop = new Properties();
 		prop.load(new FileInputStream(constants.PATH + fileName));
 		return prop;
