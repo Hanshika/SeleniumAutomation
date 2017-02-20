@@ -15,11 +15,13 @@ public class GiftCardPage
 
 	}
 
-	public String getTitle() {
+	public String getTitle() 
+	{
 		return driver.getTitle();
 	}
 
-	public int GiftCardPageFunction() {
+	public int GiftCardPageFunction() 
+	{
 		driver.findElement(By.xpath(".//*[@id='nav-xshop']/a[3]")).click();
 		List<WebElement> element1 = driver.findElements(By
 				.cssSelector(".bxc-grid__image.bxc-grid__image--light"));
